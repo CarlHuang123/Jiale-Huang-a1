@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> </meta>
+        <title>
+            calculator
+        </title>
+    </head>
+    <body>
+        <h1>
+            Grade calculator
+        </h1>
+        <br/>
+        <div style="padding: 20px; background-color: rgb(230, 249, 255);">
+            <h2 style="color: red;">
+            </h2>
+            <h4>
+                <b>Give grades to the numberical activities:</b>
+            </h4>
+            <table id="tbl" style="border-color: lightgray; width: 300;" border="2">        <!--这里的里面的小边框可以改成只显示右边框即可和图片一样-->
+                <tr style="background-color: lightgray;">
+                    <td><b>Name  </b></td>
+                    <td><b>Short Name  </b></td>
+                    <td><b>Weight  </b></td>
+                    <td><b>Grade  </b></td>
+                    <td><b>Percent  </b></td>
+                </tr>
+                <tr class = "row">
+                    <td>Activity 1  </td>
+                    <td>A1  </td>
+                    <td><input type ="number" placeholder="Weight" class = "weight">  </td>
+                    <td><input type ="number" placeholder="grade" class = "grade"> / <input type ="number" placeholder="total grade" class = "totalgrade" ></td>
+                    <td class="percent"></td>
+                </tr>
+                <tr class = "row">
+                    <td>Activity 2  </td>
+                    <td>A1  </td>
+                    <td><input type ="number" placeholder="Weight" class = "weight">  </td>
+                    <td><input type ="number" placeholder="grade" class = "grade"> / <input type ="number" placeholder="total grade"  class = "totalgrade"></td>
+                    <td class="percent"></td>
+                </tr>
+                <tr class = "row">
+                    <td>Activity 3  </td>
+                    <td>A1  </td>
+                    <td><input type ="number" placeholder="Weight" class = "weight">  </td>
+                    <td><input type ="number" placeholder="grade" class = "grade"> / <input type ="number" placeholder="total grade"  class = "totalgrade"></td>
+                    <td class="percent"></td>
+                </tr>
+                <tr class = "row">
+                    <td>Activity 4  </td>
+                    <td>A1  </td>
+                    <td><input type ="number" placeholder="Weight" class = "weight">  </td>
+                    <td><input type ="number" placeholder="grade" class = "grade"> / <input type ="number" placeholder="total grade"  class = "totalgrade"></td>
+                    <td class="percent"></td>
+                </tr>
+            </table>
+            <p>
+                <button id="btn" style="color: white; background-color: red; border: red;"><b>ADD ACTIVITY</b></button>
+            </p>
+            <p style="color: red;"><b>Result</b></p>
+            <p id = "result"></p>
+            <div style="float: right;">
+                <button id="Weightbtn" style="color: white; background-color: red; border: red;"><b>WEIGHT</b></button>
+                <button id="mean" style="color: white; background-color: red; border: red;"><b>MEAN</b></button>
+            </div>
+        </div>
+        <script src = "calculator.js"></script>
+    </body>
+</html>

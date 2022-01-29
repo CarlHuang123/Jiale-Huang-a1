@@ -1,3 +1,4 @@
+//jiale Huang 301379264
 var btn = document.getElementById("btn");
 var num = 5;
 btn.addEventListener("click",function(){
